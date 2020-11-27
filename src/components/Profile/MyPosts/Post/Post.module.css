@@ -1,0 +1,23 @@
+.item {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.item.active {
+    color: yellow;
+}
+
+.likes {
+    display:table;
+  }
+  .likes img,
+  .likes span {
+    display: table-cell;
+    vertical-align:middle;
+  }
+.likes img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}

@@ -1,0 +1,19 @@
+.nav{
+    grid-area: n;
+    background-color: beige;
+}
+.item {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+.item a{
+    text-decoration: none;
+}
+.item a:hover{
+    color: orange;
+}
+.item a.activeLink {
+    color: orange;
+}
