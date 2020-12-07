@@ -12,9 +12,20 @@
 }
 
 .messages {
-    padding: 10px;
+    border-left: 1px solid white;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .messages .message {
     color: black;
     padding: 25px;
+}
+.messages .inputMessage {
+    margin-left: 20px;
+}
+.messages textarea {
+    width: 50%;
+    margin-right: 10px;
+    font-size: 16px;
 }
